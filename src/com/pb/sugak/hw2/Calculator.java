@@ -15,7 +15,7 @@ public class Calculator {
         System.out.println("Введите знак арифметической операции:");
         String sign = in.next();
 
-        if (operand2 == 0) {
+        if (operand2 == 0 && sign.equals("/")) {
             System.out.print("Делить на ноль нельзя!");
         } else {
 
